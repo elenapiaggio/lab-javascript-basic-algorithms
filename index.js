@@ -57,3 +57,12 @@ if (resultLocalCompare < 0) {
 } else {
   console.log("What?! You both have the same name?");
 }
+
+
+// Bonus 1
+let longText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita possimus totam sapiente delectus, facilis ad aut aspernatur earum cupiditate quisquam atque, ipsa beatae iure ut aliquam ex, itaque debitis. Libero explicabo voluptatum saepe aspernatur laborum dolorum, minus id provident ipsam quia, recusandae reiciendis aperiam sunt dolore animi vero. Tenetur esse voluptatem doloribus quidem incidunt necessitatibus facilis laborum nobis ducimus! Ab amet recusandae impedit animi, officiis soluta possimus doloremque nam quas, harum tempora laboriosam praesentium? Tempore, voluptate, adipisci, alias illum earum quisquam error optio soluta animi autem repudiandae ipsam id.";
+
+const words = longText.split(" ");
+const totalWords = words.length;
+
+console.log(`In total, there are: ${totalWords} words`);
